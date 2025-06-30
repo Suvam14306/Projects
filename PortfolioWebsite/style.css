@@ -1,0 +1,109 @@
+body {
+    text-align: center;
+    background-color: lightyellow;
+    color: navy;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+span {
+    background-color: aqua;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+
+}
+
+p {
+    margin: auto;
+    padding: 80px 40px;
+    font-size: x-large;
+}
+
+nav {
+    background-color: #1e1b45;
+    padding: 10px 40px;
+}
+
+nav button {
+    color: bisque;
+    background-color: lightseagreen;
+    padding: 10px 20px;
+}
+
+h2 {
+    background-color: lightseagreen;
+
+
+}
+
+.about p {
+    padding: 20px 10px;
+}
+
+div {
+    padding: 20px;
+}
+
+table {
+    margin: auto;
+}
+
+.project {
+    display: flex;
+    margin: auto;
+    padding: 20px;
+}
+
+.project div {
+    border: 2px solid black;
+    border-radius: 100px;
+    padding: 20px;
+    margin: auto;
+    background-color: lightskyblue;
+
+
+}
+
+a:hover {
+    color: yellow;
+
+}
+
+
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: lightskyblue;
+    padding: 40px;
+    box-shadow: 0 2px 5px rgba(102, 10, 10, 0.878);
+}
+
+
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #1e1b45;
+    border-radius: 7px;
+}
+
+form button {
+    padding: 10px 30px;
+    background-color: #007BFF;
+    color: #d5eb73;
+    border-radius: 100px;
+}
+
+button:hover {
+    color: yellowgreen;
+    background-color: black;
+    padding: 15px 25px;
+}
